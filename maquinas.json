@@ -1,0 +1,58 @@
+[
+  {
+    "id": "AVL-0001",
+    "cliente": "Kayne",
+    "modelo": "Dell Inspiron 15",
+    "serial": "ABC123",
+    "tipo": "Avulso"
+  },
+  {
+    "id": "AVL-0002",
+    "cliente": "João",
+    "modelo": "Lenovo IdeaPad 3",
+    "serial": "LNV456",
+    "tipo": "Avulso"
+  },
+  {
+    "id": "VER-0001",
+    "cliente": "Vero Verde",
+    "modelo": "Dell Latitude 5420",
+    "serial": "DLT789",
+    "tipo": "Mensal"
+  },
+  {
+    "id": "VER-0002",
+    "cliente": "Vero Verde",
+    "modelo": "Dell Latitude 5420",
+    "serial": "DLT790",
+    "tipo": "Mensal"
+  },
+  {
+    "id": "VER-0003",
+    "cliente": "Vero Verde",
+    "modelo": "HP ProDesk 400",
+    "serial": "HPD321",
+    "tipo": "Mensal"
+  },
+  {
+    "id": "ALF-0001",
+    "cliente": "Alfa Contábil",
+    "modelo": "Acer Aspire 5",
+    "serial": "ACR654",
+    "tipo": "Mensal"
+  },
+  {
+    "id": "ALF-0002",
+    "cliente": "Alfa Contábil",
+    "modelo": "Dell Vostro 3520",
+    "serial": "DVS111",
+    "tipo": "Mensal"
+  },
+  {
+    "id": "ALF-0002",
+    "cliente": "Alfa Contábil",
+    "modelo": "Dell Vostro 3520",
+    "serial": "DVS111",
+    "tipo": "Mensal"
+  }
+]
