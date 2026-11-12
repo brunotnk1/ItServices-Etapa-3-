@@ -1,4 +1,4 @@
-import { carregarMaquinas } from "./dados.js";
+import { carregarMaquinas , salvarMaquinas } from "./dados.js";
 import { etiqueta, contadorCliente, proximoId } from "./util.js";
 const maquinas = await carregarMaquinas();
 const maquinasdavero = maquinas.filter((maquina) => maquina.cliente == "Vero Verde");
@@ -26,5 +26,5 @@ console.log(maquinas.map((m) => etiqueta(m)));
 console.log(contadorCliente(maquinasAtualizadas));
 console.log(proximoId(maquinasAtualizadas, "ALF-"));
 
-//await salvarMaquinas(maquinasAtualizadas);
-//console.log(`Máquina ${nova.id} salva! Total: ${maquinasAtualizadas.length}`);
+await salvarMaquinas(maquinasAtualizadas);
+console.log(`Máquina ${nova.id} salva! Total: ${maquinasAtualizadas.length}`);
